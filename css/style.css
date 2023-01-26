@@ -39,21 +39,21 @@ body {
 header {
     
     position: absolute;
-    left: 30px;
-    top: 30px;
+    left: 0px;
+    top: 15px;
     
 }
 
 h1 {
-    font-size: 65px;
-    padding-left: 30px;
+    font-size: 50px;
+    padding-left: 20px;
     color: white;
     margin: 0px;
 }
 
 h2{
     color: white;
-    padding-left: 30px;
+    padding-left: 20px;
     font-size: 20px;
     
 }
@@ -285,7 +285,7 @@ p.portrait {
   display: flex;
     flex-direction: row;
     justify-content: space-between;
-    color: white;
+   
     margin-left: 2em;
     margin-right: 2em;
     margin-bottom: 2em;
@@ -295,8 +295,12 @@ p.portrait {
 
 footer a, footer-2 a, footer-3 a {
     color: white;
+    text-decoration: line-through
 }
 
+.footer-column2 {
+    color: white;
+}
 
 /* about html */
 .about {
@@ -322,7 +326,7 @@ footer a, footer-2 a, footer-3 a {
     justify-content: center;
     align-items: center;
     color: white;
-    
+ 
     text-decoration: none;
     
 }
@@ -332,17 +336,11 @@ footer a, footer-2 a, footer-3 a {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    min-height: 600px;
 }
 
 .contact, .contact2 {
-    
-    
-		
     margin: 20px;
-    
-   
-    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -361,8 +359,235 @@ footer a, footer-2 a, footer-3 a {
     color: white;
     text-decoration: none;
     
+    
 }
 
 
 
 
+
+
+
+
+
+
+
+@media screen and (max-width: 1170px) {
+    
+    body {
+         background: url('../bild-5.jpg')
+    }
+    
+    header {
+    
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    background: white;
+          border-radius: 4px;
+    
+}
+
+h1 {
+    font-size: 40px;
+    padding: 4px;
+    color: black;
+    margin: 0px;
+  
+}
+
+h2{
+    color: black;
+    padding: 4px;
+    font-size: 15px;
+    
+}
+    
+    nav {
+     display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+li {
+    
+
+    width: 80px;
+    height: 50px;
+    text-align: center;
+    line-height: 2;
+    
+    }
+    
+.item {
+    background: white;
+    color: black;
+    padding: 4px;
+    border-radius: 4px;
+    text-decoration: none; 
+    }
+    
+
+/* work html */
+    
+    
+.simple {
+    margin: 2em;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    
+    }
+
+.img-1 {
+    grid-column: 1 / span 1;
+}
+
+.img-2 {
+    grid-column: 1 / span 1;
+   
+}
+
+.img-3 {
+    grid-column: 1 / span 1;
+}
+.img-4 {
+    grid-column: 1 / span 1;
+}
+
+.img-5 {
+    grid-column: 1 / span 1;
+}
+
+.img-6 {
+    grid-column: 1 / span 1;
+}
+
+
+
+.friend {
+    
+    margin: 2em;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-gap: 2em;
+    
+}
+
+.img-7 {
+    grid-column: 1 / span 1;
+}
+
+.img-8 {
+    grid-column: 1 / span 1;
+   
+}
+
+.img-9 {
+    grid-column: 1 / span 1;
+}
+.img-10 {
+    grid-column: 1 / span 1;
+}
+
+.img-11 {
+    grid-column: 1 / span 1;
+}
+
+.img-12 {
+    grid-column: 1/ span 1;
+}
+
+
+
+.jo {
+    
+    margin: 2em;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 2em;
+    
+}
+
+.sport {
+    
+}
+
+.img-13 {
+    grid-column: 1 / span 2;
+}
+
+.img-14 {
+    grid-column: 1 / span 2;
+   
+}
+
+.img-15 {
+    grid-column: 1 / span 2;
+}
+.img-16 {
+    grid-column: 1 / span 2;
+}
+
+.img-17 {
+    grid-column: 1 / span 2;
+}
+
+.img-18 {
+    grid-column: 1 / span 2;
+}
+
+.footer{
+  display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom: 2em;
+    
+    
+}
+    .footer-column2 {
+         color: white;
+      
+    text-decoration: none;
+        
+    }
+
+    footer a, footer-2 a, footer-3 a {
+    color: white;
+        background: black;
+    text-decoration: line-through;
+    }
+    
+    
+/*about*/
+    
+    .about {
+        background: white;
+    color: black;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100;
+}
+
+/*about*/
+    
+    
+.contact, .contact2 {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+    
+    font-size: 2em;
+    color: black;
+    background: white;
+    border-radius: 4px;
