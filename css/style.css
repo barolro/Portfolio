@@ -1,0 +1,368 @@
+/* reset */
+body {
+    font-family: arial sans-serif;
+}
+
+html, body, h1, h2, p {
+    padding: 0;
+    margin: 0;
+ line-height: 1;
+}
+
+
+figure {
+    padding: 0;
+    margin: 0;
+    line-height: 0;
+}
+
+img {
+    width: 100%;
+    height: auto; 
+}
+
+
+
+
+
+/* styles */ 
+
+body {
+    
+    background-color: black;
+    font-family: source sans pro;
+   
+    
+
+}
+
+header {
+    
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    
+}
+
+h1 {
+    font-size: 65px;
+    padding-left: 30px;
+    color: white;
+    margin: 0px;
+}
+
+h2{
+    color: white;
+    padding-left: 30px;
+    font-size: 20px;
+    
+}
+
+
+
+/* hover */
+
+
+nav {
+     display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+li {
+    
+
+    width: 80px;
+    text-align: center;
+    line-height: 2;
+    
+    
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+.bgone {
+		display: block;
+		width: 100vw;
+		height: 100vh;
+		position: absolute;
+		top: 0;
+		left: 0;
+		
+		background: url('../bild-2.jpg') no-repeat center center;
+		background-size: cover;
+		opacity: 0;
+		transition: opacity 0.5s;
+}
+
+.bgtwo {
+    
+		display: block;
+		width: 100vw;
+		height: 100vh;
+		position: absolute;
+		top: 0;
+		left: 0;
+    
+    color: red;
+		
+		background: url('../bild-4.jpg')
+        no-repeat center center;
+        background-size: cover;
+		opacity: 0;
+		transition: opacity 0.5s;
+}
+
+.bgthree {
+		display: block;
+		width: 100vw;
+		height: 100vh;
+		position: absolute;
+		top: 0;
+		left: 0;
+		
+        background: url('../bild-5.jpg')
+        no-repeat center center;
+        background-size: cover;
+		opacity: 0;
+		transition: opacity 0.5s;
+		
+}
+
+.item {
+    color: white;
+    text-decoration: none; 
+       
+}
+
+.item {
+	position: relative;
+	z-index: 2;
+}
+
+a.one:hover + .bgone {
+	opacity: 1;
+}
+
+a.two:hover + .bgtwo {
+	opacity: 1;
+}
+
+a.three:hover + .bgthree {
+	opacity: 1;
+}
+
+
+
+
+
+
+
+
+/* work html */
+.friend, .simple, .jo {
+    color: white;
+}
+
+p.portrait {
+    margin-bottom: -20px;
+}
+
+.simple {
+    margin: 2em;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 2em;
+    }
+
+
+.img-1 {
+    grid-column: 1 / span 1;
+}
+
+.img-2 {
+    grid-column: 2 / span 1;
+   
+}
+
+.img-3 {
+    grid-column: 1 / span 1;
+}
+.img-4 {
+    grid-column: 2 / span 1;
+}
+
+.img-5 {
+    grid-column: 1 / span 1;
+}
+
+.img-6 {
+    grid-column: 2 / span 1;
+}
+
+
+
+.friend {
+    
+    margin: 2em;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 2em;
+    
+}
+
+.img-7 {
+    grid-column: 1 / span 1;
+}
+
+.img-8 {
+    grid-column: 2 / span 1;
+   
+}
+
+.img-9 {
+    grid-column: 1 / span 1;
+}
+.img-10 {
+    grid-column: 2 / span 1;
+}
+
+.img-11 {
+    grid-column: 1 / span 1;
+}
+
+.img-12 {
+    grid-column: 2 / span 1;
+}
+
+
+
+.jo {
+    
+    margin: 2em;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 2em;
+    
+}
+
+.sport {
+    
+}
+
+.img-13 {
+    grid-column: 1 / span 2;
+}
+
+.img-14 {
+    grid-column: 1 / span 1;
+   
+}
+
+.img-15 {
+    grid-column: 2 / span 1;
+}
+.img-16 {
+    grid-column: 1 / span 2;
+}
+
+.img-17 {
+    grid-column: 1 / span 1;
+}
+
+.img-18 {
+    grid-column: 2 / span 1;
+}
+
+.footer{
+  display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom: 2em;
+    
+    
+}
+
+footer a, footer-2 a, footer-3 a {
+    color: white;
+}
+
+
+/* about html */
+.about {
+    color: white;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100;
+}
+
+.hi, .img-01 {
+    margin: 10px;
+    margin-bottom: 20px;
+    width: 400px;
+    text-align: center;
+}
+
+
+.footer-2 {
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+    text-decoration: none;
+    
+}
+/* contact html */
+
+.p-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.contact, .contact2 {
+    
+    
+		
+    margin: 20px;
+    
+   
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    font-size: 2em;
+    color: white;
+   
+   
+    
+}
+
+.footer-3 {
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    
+}
+
+
+
+
