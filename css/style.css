@@ -342,6 +342,7 @@ footer a, footer-2 a, footer-3 a {
     justify-content: center;
     align-items: center;
     min-height: 670px;
+     background: url('../bild-5.jpg');
 }
 
 .contact, .contact2 {
@@ -375,14 +376,9 @@ footer a, footer-2 a, footer-3 a {
     align-items: center;
     color: white;
     
-    
+    margin: 30px;
     
 }
-
-
-
-
-
 
 
 
@@ -634,9 +630,9 @@ li {
     align-items: center;
     justify-content: center;
     padding: 4px;
-    
+    color: white;
     font-size: 2em;
-    color: black;
+    
     text-decoration: underline;
 
     border-radius: 4px;
@@ -657,6 +653,14 @@ color: black;
 .contact:hover {
     
     text-decoration: underline;
-
+    
+    
+    }
+    
+    .p-box { 
+    background: black;
+        
+    
+    }
     
     
