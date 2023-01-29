@@ -307,28 +307,30 @@ footer a, footer-2 a, footer-3 a {
 }
 
 /* about html */
-.about {
+.about-2 {
     color: white;
     flex-direction: column;
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 100;
+   
 }
 
 .hi, .img-01 {
     margin: 10px;
     margin-bottom: 20px;
-    width: 400px;
+    width: 350px;
     text-align: center;
+    
 }
 
 
 .footer-2 {
   display: flex;
     flex-direction: column;
+  
+  align-items: center;
     justify-content: center;
-    align-items: center;
     color: white;
  
     text-decoration: none;
@@ -605,17 +607,22 @@ li {
     
 /*about*/
     
-    .about {
+    .about- {
        
     color: black;
     flex-direction: column;
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 100;
+    min-height: 100vh;
     
     
 }
+    .about-2 {
+    color: black;
+   
+}
+    
 
 .footer-2 {
     
