@@ -356,6 +356,18 @@ footer a, footer-2 a, footer-3 a {
     
 }
 
+.contact2:hover {
+    
+    text-decoration: underline;
+    
+}
+.contact:hover {
+    
+    text-decoration: underline;
+    
+}
+
+
 .footer-3 {
   display: flex;
     flex-direction: column;
@@ -395,6 +407,20 @@ footer a, footer-2 a, footer-3 a {
     
     
 }
+    
+    
+a.one:hover + .bgone {
+	opacity: 0;
+}
+
+a.two:hover + .bgtwo {
+	opacity: 0;
+}
+
+a.three:hover + .bgthree {
+	opacity: 0;
+}
+
 
 h1 {
     font-size: 40px;
@@ -621,6 +647,15 @@ color: black;
     
     
 }
+    
+    .contact2:hover {
+    
+    text-decoration: line-through;
+    
+}
+.contact:hover {
+    
+    text-decoration: line-through;
 
     
     
