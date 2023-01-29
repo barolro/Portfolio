@@ -636,7 +636,7 @@ li {
     
     font-size: 2em;
     color: black;
-    text-decoration: line-through;
+    text-decoration: underline;
 
     border-radius: 4px;
 }
@@ -650,12 +650,12 @@ color: black;
     
     .contact2:hover {
     
-    text-decoration: line-through;
+    text-decoration: underline;
     
 }
 .contact:hover {
     
-    text-decoration: line-through;
+    text-decoration: underline;
 
     
     
