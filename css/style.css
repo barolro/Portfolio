@@ -30,7 +30,7 @@ img {
 body {
     
     background-color: black;
-    font-family: source sans pro;
+    font-family: helvetica;
    
     
 
@@ -81,6 +81,10 @@ li {
     line-height: 2;
     
     
+}
+
+ul {
+    list-style: none;
 }
 
 img {
@@ -376,7 +380,9 @@ footer a, footer-2 a, footer-3 a {
     
     body {
         
-         background: url('../bild-5.jpg')
+         background: url('../bild-5.jpg');
+        font-family: monospace;
+        
     }
         
 
